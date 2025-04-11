@@ -1,6 +1,10 @@
 package org.ngarcia.webapp.ejb.models;
 
-public class Producto {
+import java.io.Serializable;
+
+public class Producto implements Serializable {
+
+   static final long serialVersionUID = 4253452554L;
 
    private String nombre;
 
