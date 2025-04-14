@@ -6,7 +6,8 @@ import org.ngarcia.webapp.ejb.models.Producto;
 import java.util.ArrayList;
 import java.util.List;
 
-@Stateless
+//@Stateless
+@Stateful
 public class ServiceEjb implements ServiceEjbRemote {
 
    private int contador;
